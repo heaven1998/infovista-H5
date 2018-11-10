@@ -1,0 +1,270 @@
+.zhongshang2{
+	width: 100%;
+	height: 400px;
+	background: url(../img/about-1.png);
+	background-repeat: no-repeat;
+	padding-top: 100px;
+}
+.zhongshang2 h4{
+	width: 60%;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.zhongshang2 h4 span{
+	font-size: 14px;
+	color: white;
+	margin-left: 10px;
+}
+.zhongshang2 h4 a{
+	color: white;
+}
+.kuang2{
+	width:300px;
+	height: 160px;
+	border: 3px solid white;
+	margin: 0 200px;
+	margin-top: 30px;
+}
+.kuang2 h1{
+	font-weight: normal;
+	color: white;
+	padding: 20px 30px 20px 30px;
+}
+.kuang2 p{
+	width:90%;
+	height: 100px;
+	color: white;
+	font-size: 16px;
+	padding: 0 30px;
+	
+}
+
+/*内容左*/
+.bigconcent{
+	width: 100%;
+	height: 680px;
+	margin-top: -70px;
+}
+.concentleft{
+	float: left;
+	width:729px;
+	margin-left: 230px;
+}
+.like{
+	width:729px;
+	height: 206px;
+	border:1px solid #eeebeb;
+	margin-top: 20px;
+}
+.wei{
+	float: left;
+
+}
+.like .wei h2{
+	width: 75px;
+	height: 30px;
+	font-weight: normal;
+	color: #282727;
+	font-size: 18px;
+	margin: 30px 20px 0 20px;
+	border-bottom: 3px solid orange;
+}
+.hh,.concentright h3,{
+	width: 75px;
+	height: 30px;
+	font-weight: normal;
+	color: #282727;
+	font-size: 18px;
+	margin: 30px 20px 0 20px;
+	border-bottom: 3px solid orange;
+}
+.hh{
+	width: 110px !important;
+}
+.like p{
+	color:#3b3a3a;
+	height: 30px;
+	font-size: 16px;
+	margin-left: 20px;	
+	margin-top: 10px;	
+}
+.like p:nth-of-type(1){
+	margin-top: 20px;
+}
+.like strong{
+	color:#3b3a3a;
+	font-weight: normal;
+	font-size: 16px;
+	margin-left: 20px;	
+}
+.like strong span{
+	padding-left: 75px;
+}
+.like p span{
+	padding-left: 120px;
+}
+.like p a{
+	color: orangered;
+}
+.like img{
+	float: right;
+	width: 226px;
+	height: 206px;
+}
+
+/*内容右*/
+.concentright{
+	float: left;
+	width: 330px;
+	height: 660px;
+	background: #edebe9;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+.biaodan{
+	margin-top: 30px;
+}
+.form-group{
+	margin-top: 20px;
+	height: 50px;
+	overflow: hidden;
+    transition: all 0.5s linear;
+}
+.form-control,.xuanze{
+	border: none;
+	width: 160px;
+	height: 30px;
+	float: right;
+	border-radius: 9px 9px 9px;
+	margin-right: 20px;
+}
+.form-control:focus{
+	outline: none;
+	box-shadow: 2px 2px 3px #960b0b;
+	transform: scale(1);
+}
+.form-group label{
+	 font-size:12px;
+	 color: #3b3a3a;
+	 margin-left: 20px;
+	 margin-top: 20px;
+}
+.form-group label span{
+	height: 30px;
+	color: red;
+	padding-left: 80px;
+	font-size: 14px;
+}
+.form-control:hover{
+	border:none;
+	border-radius: 9px 9px 9px;
+	box-shadow: 2px 2px 3px #960b0b;
+}
+.submit1{
+	clear: both;
+	width: 80px;
+	height: 40px;
+	background:orange;
+	border-radius: 9px 9px 9px;
+	margin-left: 120px;
+	box-shadow: 2px 2px 2px #960b0b;
+	border: 1px solid #F37712;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*下面的部分*/
+.ban2{
+	width: 1120px;
+	height: 80px;
+	background:#edebe9;
+	margin-top: 60px;	
+}
+.ban2 h1{
+	font-weight: normal;
+	padding: 20px 30px 20px 30px;
+	font-size:28px;
+}
+.lie{
+	width: 100%;
+	height: 1660px;
+}
+.diyilie{
+	width: 272px;
+	float:left;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.diyilie h2{
+	color: white;
+	font-weight: normal;
+	padding: 25px 30px 30px 20px;
+	font-size: 22px;
+}
+.diyilie:nth-of-type(1){
+	margin-left:  0 !important;
+}
+.bankuai2,.bankuai3,
+.bankuai4,.bankuai5{
+	width: 272px;
+	height:80px;
+	background: url(../img/gongye-6_02.png);
+	margin-left: 234px;
+}
+.bankuai3{
+	background:url(../img/gongye-5.jpg);
+}
+.bankuai4{
+	background:url(../img/gongye-4.png);
+}
+.bankuai5{
+	background: url(../img/gongye-6.png);
+}
+.wenzi,.wenzi1,.wenzi2{
+	float: left;
+	width: 272px;
+	height: 220px;
+	border:1px solid #eeecec;
+	margin-top: 10px;
+}
+.wenzi1{
+	height: 180px;
+}
+.wenzi2{
+	height: 240px;
+}
+.wenzi h3,.wenzi1 h3
+,.wenzi2 h3,.hh1,.hh2{
+	width: 50px;
+	height: 30px;
+	font-weight: normal;
+	color: #282727;
+	font-size: 20px;
+	margin: 30px 20px 0 20px;
+	border-bottom: 3px solid #f47926;
+}
+.hh1{
+	width: 70px!important;
+}
+.hh2{
+	width:90px!important;
+}
+.wenzi p,.wenzi1 p
+,.wenzi2 p{
+	font-size: 16px;
+	line-height: 40px;
+	color:#3b3a3a;
+	padding-left: 20px;
+}
+.wenzi p:nth-of-type(1)
+,.wenzi1 p:nth-of-type(1)
+,.wenzi2 p:nth-of-type(1){
+	line-height: 20px;
+	padding-top: 20px;
+}

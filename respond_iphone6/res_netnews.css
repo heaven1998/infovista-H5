@@ -1,0 +1,28 @@
+@media only screen and (max-width:375px ){
+	.tupian{
+		width: 375px;
+	}
+	.tupian1 h1{
+		margin-left:40%;
+	}
+	.imgage:nth-of-type(1),.imgage1,.imgage2{
+	margin-left:10px;
+    }
+    .imgage{
+    	margin-left: 10px;
+    }
+    .tupian1{
+    	height: 2500px;
+    }
+    .tupian2{
+    	height: 3000px;
+    }
+    .fanye{
+    	width: 100%;
+    	margin-left:20px;
+    }
+    .scale:nth-of-type(1)
+,.scale1,.scale{
+	margin-left: 0;
+}
+}

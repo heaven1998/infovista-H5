@@ -1,0 +1,43 @@
+@media only screen and (max-width:375px ){
+	.logo{
+		margin-top:-70px !important;
+		margin-left: 40px;
+    }
+	.zhongshang2 h4{
+		margin-left: 40px;
+	}
+	.kuang2{
+		margin-left: 40px;
+	}
+	.bigconcent{
+		width: 100%;
+		height: 1100px;
+	}
+	.concentleft{
+		margin-left: 0;
+		width: 100%;
+	}
+	.like p span,.like strong span{
+		opacity: 0;
+	}
+	.concentright{
+		width: 100%;
+		margin-left: 0;		
+	}
+	.ban2{
+		width: 375px;
+		margin-top: 300px !important;
+		background:#edebe9;
+	}
+	.lie{
+		height:4650px;
+	}
+	.bankuai2,.bankuai3,
+    .bankuai4,.bankuai5{
+	margin-left:50px;
+    }
+    .footpic{
+    	margin-top: 20px;
+    }
+   
+}

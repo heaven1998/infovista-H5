@@ -1,0 +1,48 @@
+@media only screen and (max-width:375px ){
+		.logo{
+		margin-top: -70px;
+		margin-left: 40px;
+    }
+	.zhongshang h4{
+		margin-left:40px;
+	}
+	.zhongshang .kuang{
+		width: 305px;
+		height: 190px;
+		margin-left:40px;
+	}
+	.concent2{
+		width: 100%;
+		margin-top:-60px;
+		height:3300px;
+	}
+	.neirong1:nth-of-type(1),
+    .neirong2:nth-of-type(1),
+    .neirong5:nth-of-type(1){
+	margin-left:40px;
+	width: 300px;
+    }
+    .neirong5,.neirong6,.neirong3,.neirong4{
+    	margin-left: 40px;
+    	width: 300px;
+    }
+    .neirong1{
+    	width: 300px;
+    	margin-left:40px;
+    	margin-top:20px;
+    }
+    .guodu1 h1{
+    	width: 375px;
+    	margin-left:140px;
+    }
+    .guodu1 span{
+    	padding-left:70px;
+    }
+    .xiaoicon{
+    	margin-top: -10px;
+    	margin-left:70px;
+    }
+    .foot{
+    	margin-top: -100px;
+    }
+}

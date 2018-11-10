@@ -1,0 +1,214 @@
+.zhongshang{
+	width: 100%;
+	height: 400px;
+	background: url(../img/gongye-3.jpg);
+	background-repeat: no-repeat;
+	padding-top: 100px;
+}
+.zhongshang h4{
+	width: 60%;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.zhongshang h4 span{
+	font-size: 14px;
+	color: white;
+	margin-left: 10px;
+}
+.zhongshang h4 a{
+	color: white;
+}
+.zhongshang .kuang{
+	width:750px;
+	height: 150px;
+	border: 3px solid white;
+	margin: 0 200px;
+	margin-top: 30px;
+}
+.kuang h1{
+	font-weight: normal;
+	color: white;
+	padding: 20px 30px 20px 30px;
+}
+.kuang p{
+	width:90%;
+	height: 100px;
+	color: white;
+	font-size: 16px;
+	padding: 0 30px;
+	
+}
+/*内容1开始*/
+.concent2{
+	width: 100%;
+	margin-top: -20px;
+	height: 920px;
+	
+}
+.neirong1{
+	float: left;
+	width:280px;
+	height:180px;
+	background: url(../img/gongye-6_02.png);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+.neirong1:nth-of-type(1),
+.neirong2:nth-of-type(1),
+.neirong5:nth-of-type(1){
+	margin-left: 230px;
+}
+.neirong1 h4,.neirong2 h4,
+.neirong3 h4,.neirong4 h4,
+.neirong5 h4,.neirong6 h4{
+	font-size: 16px;
+	font-weight: normal;
+	padding-top: 20px;
+	margin-left: 10%;
+}
+.neirong1 h4 a,.neirong2 h4 a
+,.neirong3 h4 a,.neirong4 h4 a
+,.neirong5 h4 a,.neirong6 h4 a{
+	color: white;
+}
+.neirong1 p a,.neirong2 p a,
+.neirong3 p a,.neirong4 p a
+,.neirong5 p a,.neirong6 p a{
+	color: white;
+}
+.xian3{
+	width: 80%;
+	border-bottom: 3px solid white; 
+	margin-top: 5px;
+}
+.neirong1 p,.neirong2 p
+,.neirong3 p,.neirong4 p
+,.neirong5 p,.neirong6 p{
+	width: 80%;
+	line-height: 25px;
+	font-size: 14px;
+	padding-top: 20px;
+	margin-left:10%;
+}
+.neirong1:hover,.neirong2:hover{
+	background: #19cd8e;
+}
+/*内容1结束*/
+
+/*内容2开始*/
+.concent3{
+	width: 100%;
+}
+.neirong2,.neirong3,.neirong4{
+	float: left;
+	width: 280px;
+	height:300px;
+	background: url(../img/gongye-6_02.png);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.neirong3{
+	background: url(../img/gongye-5.jpg);
+}
+.neirong4{
+	background: url(../img/gongye-4.png);
+}
+.neirong3:hover{
+	background: #ff8b00;
+}
+.neirong4:hover,.neirong5:hover{
+	background: #27d6eb;
+}
+/*内容2结束*/
+/*内容3开始*/
+.concent4{
+	width: 100%;
+}
+.neirong5,.neirong6{
+	float: left;
+	width:280px;
+	height:180px;
+	background: url(../img/gongye-4.png);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.neirong6{
+	background: url(../img/gongye-7.png);
+}
+.neirong6:hover{
+	background: #2e8c67;
+}
+/*内容3结束*/
+/*过渡开始*/
+.guodu1{
+	width: 100%;
+	height: 200px;
+	background: url(../img/guodu3.png);
+	margin-top: 50px;
+}
+.guodu1 h1{	
+	font-weight: normal;
+	color: white;
+	font-size: 24px;
+	padding-top:30px ;
+	width: 100%;
+	margin-left: 700px;
+}
+.guodu1 span{
+	font-size: 16px;
+	color: white;
+	padding-left: 630px;
+	line-height: 25px;
+}
+.xiaoicon{
+	float: left;
+	width: 220px;
+	height: 35px;
+	background: white;
+	border-radius: 25px 25px 25px;
+	margin-top: 30px;
+	overflow: hidden;
+	margin-left:100px;
+	padding-top: 12px;
+}
+.xiaoicon:nth-of-type(1){
+	margin-left: 500px;
+}
+.xiaoicon img{
+	float: left;
+	border-radius:55%;
+	margin-left: 10px;
+}
+.xiaoicon strong{
+	font-size: 16px;
+	padding-left: 30px;
+    font-weight:normal; 
+}
+.xiaoicon a strong
+ {
+	color: orange;	
+}
+.xiaoicon:hover strong
+{
+	color: orangered;
+}
+.guodu1:hover .xiaoicon,{
+	animation: think 0.2s;
+}
+@keyframes think{
+	0{transform: translateX(0);}
+	25%{transform: translateX(10px);}
+	50%{transform: translateX(0);}
+	75%{transform: translateX(10px);}
+	100%{transform: translateX(0);}
+}
+/*过渡结束*/
+
+.bigmiddledwon h3{
+	margin-right: 100px;
+}
